@@ -1,0 +1,50 @@
+
+.wrapper{
+
+    border: 1px solid darkgray;
+    padding : 10px;
+    border-radius: 5px;
+    margin: 30px 0 30px 0;
+    display: flex;
+    max-height: 210px;
+
+    form{
+        width: 100%;
+     
+        & input {
+            width: 100%;
+            font-size: 30px;
+            outline:none;
+        
+ 
+        }
+        & textArea {
+            width: 100%;
+            font-size: 20px;
+        }
+
+        & button{
+            border: none;
+            background-color: transparent;
+            outline: none;
+
+        }
+
+        & .error-icon{
+            float: right;
+            position: absolute;
+            right: 42px;
+            top: 30px;
+        }
+  
+    }
+
+    .invalid{
+        border: 2px solid red;
+    }
+
+    .error-message{
+        color: red;
+    }
+
+}

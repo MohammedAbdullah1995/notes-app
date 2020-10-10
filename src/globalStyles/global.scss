@@ -1,0 +1,13 @@
+@import "~bootstrap/scss/bootstrap";
+@font-face{
+
+font-family: 'IndieFlower-regular';
+src: local('IndieFlower-regular'),url(
+    '../globalStyles/fonts/IndieFlower-Regular.ttf'
+)format('truetype');
+
+}
+
+body{
+    font-family: 'IndieFlower-regular';
+}
