@@ -23,10 +23,6 @@ export default function AddNote({ addNote }) {
                         <div className="m-3">
 
                             <input className={errors.title && 'invalid'} name="title" ref={register({ required: true })} type="text" placeholder="Title" />
-
-                            {/* {errors.title && <img className="error-icon" src={errorIcon} height="20px" alt="" />} */}
-
-                            {/* {errors.title && <p className="error-message">Shit is required</p>} */}
                             
                         </div>
 
@@ -36,7 +32,7 @@ export default function AddNote({ addNote }) {
 
                             {errors.content && <img className="error-icon" src={errorIcon} height="20px" alt="" />}
 
-                            {errors.content && <p className="error-message">Shit is required</p>}
+                            {errors.content && <p className="error-message">this field is required</p>}
 
                         </div>
 
